@@ -1,0 +1,57 @@
+body {
+    font-family: 'Roboto Flex', sans-serif;
+}
+
+.navbar {
+    background-color: #DF0101;
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: #fff;
+    color: #DF0101;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-cardapio .nav-link.active:hover {
+    color: #fff;
+}
+
+.section-title {
+    font-family: 'Pacifico', cursive;
+}
+
+.navbar-toggler {
+    background-color: #fff;
+}
+
+.section-title span,
+h3 {
+color: #DF0101;
+}
+
+#sobre-das,
+#cardapio {
+    background-color: #F6CECE;
+}
+
+.text-colored {
+    color: #DF0101;
+}
+
+.nav-cardapio .nav-link.active,
+#fale-conosco button {
+    background-color: #DF0101;
+    color: #fff;
+}
+
+.nav-cardapio .nav-link:hover {
+    color: #DF0101;
+}
+
+@media (max-width: 767px) {
+    .carousel-item img{
+        height: 280px;
+    }
+}
